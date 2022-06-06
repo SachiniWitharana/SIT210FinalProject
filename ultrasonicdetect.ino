@@ -19,7 +19,7 @@ void setup() {
   pinMode(PIN_ECHO, INPUT);// ultrasonic pin echo input recieved
   digitalWrite(led, LOW);
   //mqtt client connect
-  client.connect("photonDev");
+  client.connect("argonDev");
 
 }
 
